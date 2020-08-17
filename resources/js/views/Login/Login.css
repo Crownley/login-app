@@ -1,0 +1,61 @@
+@media all and (min-width: 480px) {
+
+    div.Login-box{
+
+      padding: 0rem 0rem;
+      min-width: 500px;
+      background-color: #f2f2f2;
+    }
+  
+    .Login-box form {
+      border-radius: 50px;
+      margin: 0 5vh;
+      padding: 20px 0;
+      color: white;
+      font-size: calc(10px + 2vmin);
+
+
+    }
+    
+
+    .header {
+      background: rgb(120,81,123);
+      background: linear-gradient(180deg, rgba(120,81,123,1) 0%, rgba(104,70,106,1) 100%);
+      padding: 40px 20px;
+      font-size: calc(10px + 2vmin);
+      text-align: left;
+    }
+    .Login {
+      
+        background: radial-gradient(#644267, #310f34);
+        min-height: 100vh;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      input.form-control {
+        background-color: #f0eef0;
+      }
+
+      Button.btn {
+        width: 30%;
+        padding: 10px 0;
+        background: rgb(120,81,123);
+        background: linear-gradient(180deg, rgba(120,81,123,1) 0%, rgba(104,70,106,1) 100%);
+      }
+      .Icon {
+        position: relative;
+        margin-left: 415px;
+        margin-bottom: -4rem;
+        height: calc(1.5em + .75rem + 2px);
+        font-size: 1rem;
+        color: white;
+      }
+
+      input.form-control {
+        padding: 2rem auto;
+      }
+  }
