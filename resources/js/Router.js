@@ -7,7 +7,7 @@ import Dashboard from './views/user/Dashboard/Dashboard';
 const Main = props => (
 <Switch>
   {/*User will LogIn*/}
-  <Route path='/login' component={Login}/>
+  <Route path='/' component={Login}/>
   {/* User is LoggedIn*/}
   <PrivateRoute path='/dashboard' component={Dashboard}/>
   {/*Page Not Found*/}

@@ -17,7 +17,6 @@
 
     }
     
-
     .header {
       background: rgb(120,81,123);
       background: linear-gradient(180deg, rgba(120,81,123,1) 0%, rgba(104,70,106,1) 100%);
@@ -48,8 +47,8 @@
       }
       .Icon {
         position: relative;
-        margin-left: 415px;
-        margin-bottom: -4rem;
+        margin-left: 400px;
+        margin-bottom: calc(-3.9em - .3rem);
         height: calc(1.5em + .75rem + 2px);
         font-size: 1rem;
         color: white;
